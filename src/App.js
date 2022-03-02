@@ -18,7 +18,7 @@ function App() {
             className="quantity_minus"
             onClick={() => dispatch(decNumber())}
           >
-            <span>-</span>
+            <span>-1</span>
           </button>
           <input
             name="quantity"
@@ -31,7 +31,7 @@ function App() {
             className="quantity_plus"
             onClick={() => dispatch(incNumber(5))}
           >
-            <span>+</span>
+            <span>+5</span>
           </button>
         </div>
       </div>
@@ -42,7 +42,7 @@ function App() {
           className="quantity_minus"
           onClick={() => dispatch(divNumber())}
         >
-          <span>-</span>
+          <span>/5</span>
         </button>
         <input
           name="quantity"
@@ -55,7 +55,7 @@ function App() {
           className="quantity_plus"
           onClick={() => dispatch(multNumber())}
         >
-          <span>+</span>
+          <span>*5</span>
         </button>
         </div>
     </>
